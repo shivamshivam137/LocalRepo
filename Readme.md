@@ -1,23 +1,23 @@
 # CivicTrack_Miniproject
 ## Miniproject Repository
 Grp 11. Civic Awareness
-# NagrikNeeti
+# CivicTrack
 
 ## 1. Project Overview
 
-NagrikNeeti is a civic awareness and candidate transparency platform designed to provide citizens with clear, verified, and structured information about election candidates and their promises. The platform addresses the persistent lack of accessible political data by consolidating candidate profiles, declared promises, and fulfillment indicators into a single, public-facing system. By prioritizing accuracy, separation of concerns, and controlled data access, NagrikNeeti aims to strengthen informed democratic participation and accountability in electoral processes.
+CivicTrack is a civic awareness and candidate transparency platform designed to provide citizens with clear, verified, and structured information about election candidates and their promises. The platform addresses the persistent lack of accessible political data by consolidating candidate profiles, declared promises, and fulfillment indicators into a single, public-facing system. By prioritizing accuracy, separation of concerns, and controlled data access, CivicTrack aims to strengthen informed democratic participation and accountability in electoral processes.
 
 ---
 
 ## 2. Problem Statement
 
-In many elections, voters struggle to access reliable and comprehensive information about candidates. Critical data—such as background details, declared promises, and performance indicators—is often fragmented across multiple sources, difficult to verify, or presented in opaque formats. Existing solutions frequently rely on unstructured data, lack transparency in sourcing, or fail to distinguish between public consumption and administrative control. NagrikNeeti addresses this gap by offering a structured, read-only public interface backed by controlled administrative data management, ensuring consistency, traceability, and trustworthiness.
+In many elections, voters struggle to access reliable and comprehensive information about candidates. Critical data—such as background details, declared promises, and performance indicators—is often fragmented across multiple sources, difficult to verify, or presented in opaque formats. Existing solutions frequently rely on unstructured data, lack transparency in sourcing, or fail to distinguish between public consumption and administrative control. CivicTrack addresses this gap by offering a structured, read-only public interface backed by controlled administrative data management, ensuring consistency, traceability, and trustworthiness.
 
 ---
 
 ## 3. System Architecture
 
-NagrikNeeti is built as a static frontend application using only HTML, CSS, and vanilla JavaScript, with a strictly modular file structure to ensure long-term maintainability.
+CivicTrack is built as a static frontend application using only HTML, CSS, and vanilla JavaScript, with a strictly modular file structure to ensure long-term maintainability.
 
 **Frontend Architecture**
 
@@ -70,7 +70,7 @@ Firestore helper modules encapsulate all database access, while page-level scrip
 
 ## 5. Security Model
 
-NagrikNeeti follows a defense-in-depth security approach.
+CivicTrack follows a defense-in-depth security approach.
 
 * Role-based access control is enforced using Firestore as the source of truth
 * Client-side route guards prevent unauthorized access to admin pages
@@ -138,4 +138,4 @@ This architecture minimizes operational overhead, supports rapid iteration, and 
 
 ## 10. License / Contribution Notes
 
-NagrikNeeti is designed to be open-source friendly. Contributors are expected to respect the established separation of concerns, security model, and modular architecture. Feature additions should align with the existing data access patterns and avoid introducing framework dependencies without clear justification.
+CivicTrack is designed to be open-source friendly. Contributors are expected to respect the established separation of concerns, security model, and modular architecture. Feature additions should align with the existing data access patterns and avoid introducing framework dependencies without clear justification.
